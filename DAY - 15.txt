@@ -1,0 +1,23 @@
+DAY - 15:
+=================
+
+Given an int array length 3, if there is 2 in the array immediately followed by a 3, change the element 3 to 0, and return the changed array.
+123---120
+234---204
+122---122
+
+2.Given an array of integer, return the sum of the first 2 elements in the array.If the array length is less than 2, just sum up the elements that exist, return 0 if the array length is 0.
+1,2,3---3
+5,5---10
+8,2,1,4---10
+
+if Array length == null --> return 0
+else if(array length == 1) ----> return sum
+else if(array length < 1) ----> return sum
+
+3.given an array of integers, return true if 6 appears as either the first or last element
+
+4. given an array of ints, return true if the array is length 1 or more , and the first element and last element are equal.
+
+if(nums.length>=0 && nums[0] == nums[nums.length-1]) {
+return true;
